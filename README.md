@@ -1,5 +1,9 @@
 # covid-api-india
 
+## Screenshot of App
+
+![APP](https://github.com/tushxr16/covid-api-india/master/app-view.png)
+
 ## Quick Start
 
 1. Clone the repo
