@@ -20,7 +20,21 @@
 
 5. Run the development server:
   ```
-  $ flask run
+  $ python .\app.py
   ```
 
 6. Navigate to [http://localhost:8000](http://localhost:800)
+
+7. Create a local Git repository:
+
+  ```
+  $ git init
+  $ git add .
+  $ git commit -am "your commit msg"
+  ```
+
+8. Push changes to code on Heroku:
+
+  ```
+  $ git push heroku master
+  ```
