@@ -2,7 +2,7 @@
 
 ## Screenshot of App
 
-![APP](https://github.com/tushxr16/covid-api-india/master/app-view.png)
+![APP](https://github.com/tushxr16/covid-api-india/blob/master/app-view.png)
 
 ## Quick Start
 
