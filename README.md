@@ -1,6 +1,6 @@
 # covid-api-india
 
-### Quick Start
+## Quick Start
 
 1. Clone the repo
   ```
