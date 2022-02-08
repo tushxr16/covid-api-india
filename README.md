@@ -9,6 +9,16 @@
   ```
 
 2. Initialize and activate the virtual env:
+  
+  I have used virtual-env here to create the env.
+  ```
+  $ pip install virtualenv
+  ```
+  If error occurs it must be probably due to the EXECUTION_POLICY. Change it via running as admin PS. 
+  ```
+  $ SET ExecutionPolicy unrestricted
+  ```
+  Accept the ExecutionPolicy status.
   ```
   $ .\env\Scripts\activate.ps1
   ```
