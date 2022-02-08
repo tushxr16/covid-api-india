@@ -1,25 +1,32 @@
 {% extends "temp.html" %}
 {% block content %}
 <!--ABOUT US-->
+
 <section id="about">
-	<div class="row g-0 my-5 py-5 align px-5 cent">
-		<div class="col-12 col-lg-4">
-			<h1 class="headerGrad">
+	<div class="row g-0 my-5 py-5 align px-5" style="align-items: center;justify-content: space-evenly;">
+		<div class="col-12 col-sm-4">
+			<h1 class="headerGrad shadow-lg px-5 py-5">
 				<b>LIVE COVID-API FOR INDIA</b>
 			</h1>
 		</div>
-		<div class="col-12 col-lg-6">
-			API (Application Programming Interface) is a computing interface that interacts between multiple software.
-			JSON (JavaScript Object Notation) is a lightweight format for storing and transporting data. It is used to
-			send data from server to web.
-			<a href="{{url_for('api')}}" style="text-decoration: none;">( Click to get API-LINK in JSON format )</a>
+		<div class="col-12 col-sm-6">
+			<p>API (Application Programming Interface) is a computing interface that interacts between multiple
+				software.
+				JSON (JavaScript Object Notation) is a lightweight format for storing and transporting data. It is used
+				to
+				send data from server to web.
+			</p>
+			<button type="button" class="btn btn-danger bg-gradient"><a href="{{url_for('api')}}"
+					style="text-decoration: none; color: white;">API-JSON format</a></button>
 		</div>
 	</div>
-
-	<!-- Section Info -->
-
+</section>
+<!-- Section Info -->
+<section id="covid">
 	<div class="row g-0 my-5 py-5 px-5" style="align-items: center;justify-content: space-evenly;">
-		<h1 style="text-align: center;">Why Us?</h1>
+		<div class="col-12">
+			<h1 class="shadow-lg container col-lg-6 px-3 py-3" style="text-align: center;">Why Us?</h1>
+		</div>
 		<div class="col-12 col-lg-3 py-5">
 			<h3 style="text-align: center;">
 				Up To Date Data
