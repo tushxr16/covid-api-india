@@ -44,4 +44,4 @@ def api():
     return app.send_static_file("dt.json")
 
 if(__name__=="__main__"):
-    app.run(debug=True, port = 8000)
+    app.run()
