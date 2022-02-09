@@ -26,9 +26,9 @@ def home():
         mail = request.form['mail']
         print(fname,lname,mail)
     
-    user = paraMeter(name="Tushar")
-    db.session.add(user)
-    db.session.commit()
+    # user = paraMeter(name="Tushar")
+    # db.session.add(user)
+    # db.session.commit()
     allParams= paraMeter.query.all()
 
     return render_template('index.html',allParams=allParams)
