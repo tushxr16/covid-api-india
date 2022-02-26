@@ -1,11 +1,12 @@
-{% extends "temp.html" %}
+{% extends "head.html" %}
 {% block content %}
+
 <!--ABOUT US-->
 
 <section id="about">
 	<div class="row g-0 my-5 py-5 align px-5" style="align-items: center;justify-content: space-evenly;">
 		<div class="col-12 col-sm-4">
-			<h1 class="headerGrad shadow-lg px-5 py-5">
+			<h1 class="shadow-lg px-5 py-5">
 				<b>LIVE COVID-API FOR INDIA</b>
 			</h1>
 		</div>
@@ -16,8 +17,20 @@
 				to
 				send data from server to web.
 			</p>
-			<button type="button" class="btn btn-danger bg-gradient"><a href="{{url_for('api')}}"
-					style="text-decoration: none; color: white;">API-JSON format</a></button>
+			<div class="">
+				<form action="#" method="POST">
+					<section id="dropdown">
+						<select id="state" name="state">
+						  <option disabled>Select the state ?</option>
+						  {% for state in states %}
+						  <option value="{{state}}">{{state}}</option>
+						  {% endfor %}
+						</select>
+					  </section>
+					<input type="submit" value="GET API" class="btn btn-danger bg-gradient"></input>
+				</form>
+			</div>
+
 		</div>
 	</div>
 </section>
