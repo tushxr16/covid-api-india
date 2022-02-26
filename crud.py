@@ -31,4 +31,3 @@ def getJsonofAllState():
     with open(jsonFile,'w') as outfile:
         outfile.write(json.dumps(js))
 
-getJsonofAllState()
