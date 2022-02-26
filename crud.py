@@ -5,7 +5,7 @@ import json
 state='Bihar'
 
 def getJsonofState(state):
-
+    state = str(state)
     parentPath = os.path.abspath(os.getcwd())+'\\static\\data\\'
     listOfFiles = [x for x in os.listdir(parentPath) if (x.endswith('.csv'))]
     returnJson='Not Found'
