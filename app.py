@@ -18,7 +18,7 @@ def home():
 @app.route("/api/<string:state>")
 def appi(state):
     ret = getJsonofState(state)
-    return jsonify(ret)
+    return 'jsonify(ret)'
 
 
 @app.route("/about")
