@@ -16,8 +16,10 @@ def home():
 
 
 @app.route("/api/<string:state>")
-def appi(state):
-    ret = getJsonofState(state)
+def api(state):
+    #TODO: Logic of seperation with '?' '=' '&'
+    # data = state.split('&')
+    ret = getJsonofState(state.title)
     return jsonify(ret)
 
 
@@ -27,7 +29,7 @@ def about():
 
 
 @app.route("/api-json")
-def api():
+def appi():
     return app.send_static_file("dt.json")
 
 

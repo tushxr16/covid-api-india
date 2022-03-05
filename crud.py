@@ -31,3 +31,23 @@ def getJsonofAllState():
     with open(jsonFile,'w') as outfile:
         outfile.write(json.dumps(js))
 
+def getJsonOfToday():
+    pass
+
+def getJsonOfWeek():
+    pass
+
+def getJsonOfMonth():
+    pass
+
+def getJsonOfYear():
+    pass
+
+def getJsonOfMonth():
+    pass
+
+def getJsonOfYear():
+    pass
+
+def getJsonOfIndia():
+    pass
